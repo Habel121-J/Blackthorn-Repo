@@ -11,10 +11,11 @@ public with sharing class AccountUtility {
 
             acc.Industry = ' ' + acc.Industry;
         }
-    private voud updateCount(){
+   
+
+    }
+     private voud updateCount(){
         System.debug('updateCOunt');
     
-    }
-
     }
 }
