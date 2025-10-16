@@ -8,6 +8,7 @@ public with sharing class AccountUtility {
         for(Account acc : accList){
             System.debug('acc'+acc);
             acc.Name  = 'Updated Account on' + System.today() + acc.Name;
+            acc.Industry = ' ' + acc.Industry;
         }
 
     }
